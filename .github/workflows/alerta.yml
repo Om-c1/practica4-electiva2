@@ -29,4 +29,4 @@ jobs:
       # 4. Envíar la notificación HTTP a ntfy.sh usando curl
       - name: Enviar alerta a ntfy
         run: |
-          curl -d "✅ Se ha subido un nuevo commit a la rama main. Practica 4 completada." ntfy.sh/devops-itla
+          curl -d " Hola Mundo - ✅ nuevo commit a la rama main. Practica 4 completada." ntfy.sh/devops-itla
